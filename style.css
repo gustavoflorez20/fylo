@@ -11,16 +11,17 @@ body{
     align-content: center;
     justify-content: center;
     margin-top: 10rem;
+    
 
 }
-
 .inferior{
-background-image: url(./images/bg-desktop.png);
-background-repeat:repeat;
-height: 22rem;
-padding: 1rem;
-   
+    
+    background-image: url(./images/bg-desktop.png);
+    height: 20rem;
+    background-color: #0D132D;
+    background-repeat: no-repeat;
 }
+
 .derecho{
     color: #B9C5FD;
     background-color:#1E2D6A;
