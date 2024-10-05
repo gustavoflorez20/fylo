@@ -1,0 +1,274 @@
+body{
+   
+    background-repeat: no-repeat;
+    background-color: #0F1231;
+   
+    
+}
+.principal{
+    display: flex;
+    flex-direction: row-reverse;
+    align-content: center;
+    justify-content: center;
+    margin-top: 10rem;
+
+}
+
+.inferior{
+background-image: url(./images/bg-desktop.png);
+background-repeat:repeat;
+height: 22rem;
+padding: 1rem;
+   
+}
+.derecho{
+    color: #B9C5FD;
+    background-color:#1E2D6A;
+    border-radius: 0.50rem;
+    padding: 0.50rem 0rem 1rem 1rem ;
+    font-size: 0.80rem;
+    width: 34rem;
+    height: 7rem;
+    position: relative;
+    top: 9.25rem;
+    font-family: "Raleway", sans-serif;
+}
+
+.izquierdo{
+    background-color:#1E2D6A ;
+    padding: 2rem;
+    border-top-right-radius: 6rem ;
+    width: 15rem;
+    margin-right: 2rem;
+    position: relative;
+    top: 6rem;
+}
+.iconos svg{
+    border: 1rem solid #0F1231 ;
+    border-radius: 0.50rem;
+}
+
+
+.rectangulo{
+    background-color:#FFFFFF;
+    width: 10rem;
+    height: 3rem;
+    border-radius: 0.50rem 0.50rem 0rem;
+    position: relative;
+    bottom: 5rem;
+    left: 18rem;
+    
+    
+}
+ .rectangulo-1{
+    width: 0;
+    height: 0;
+    background-color:#1E2D6A;
+    border-left: 0.18rem solid transparent;
+    border-right:1.50rem solid white;
+    border-bottom: 1.40rem solid #1E2D6A;
+    position: relative;
+    top: 3.0rem;
+    left: 8.33rem;
+ }
+
+
+.text{
+    font-size: 2rem;
+    font-family: "Raleway", sans-serif;
+    position: relative;
+    bottom: 7.50rem;
+    left: 18.90rem;
+    color:black;
+}
+
+.text-1{
+    font-size: 0.70rem;
+    color: gray;
+    position: relative;
+    bottom: 7.50rem;
+    left: 19rem;
+    font-family: "Raleway", sans-serif;
+    
+}
+
+.medidor{
+    position: relative;
+    bottom: 4.50rem;
+    right: 0.20rem;
+    background-color: #0D132D;
+    border-radius: 0.50rem;
+    height: 1rem;
+    width: 32rem;
+
+}
+
+.medidor-1{
+   background-color:red;
+   background: linear-gradient(90deg, #F89698, #F65A93);
+   width: 20rem;
+   height: 0.60rem;
+   position: relative;
+    bottom: 5.37rem;
+    border-radius: 0.50rem;
+    
+}
+
+.punto{
+    position: relative;
+    bottom: 6rem;
+    left: 19.50rem;
+    background-color: white;
+    width: 0.60rem;
+    height: 0.60rem;
+    border-radius: 100%;
+}
+
+
+.mil{
+    position: relative;
+    bottom: 8.50rem;
+    float: inline-end;
+    right: 1.80rem;
+    font-family: "Raleway", sans-serif;
+}
+
+.cero{
+    position: relative;
+    bottom: 6rem;
+    font-family: "Raleway", sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+    
+    body{
+        background-image: url(./images/bg-mobile.png);
+        background-size: 200% 200%;
+       
+    }
+    .principal{
+        display: flex;
+        flex-direction: column-reverse;
+        
+        
+    
+    }
+    .attribution{
+        position: relative;
+        top: 12rem;
+    
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: center;
+        color: white;
+    }
+
+    .izquierdo{
+        background-color:#1E2D6A ;
+        border-top-right-radius: 6rem ;
+        width: 16rem;
+        position: relative;
+        top: 6rem;
+        left: 1.50rem;
+    }
+    .derecho{
+        color: #B9C5FD;
+        background-color:#1E2D6A;
+        border-radius: 0.50rem;
+        padding: 0.50rem 0rem 1rem 1rem ;
+        font-size: 0.80rem;
+        width: 19rem;
+        height: 7rem;
+        position: relative;
+        left: 1.50rem;
+        top: 7rem;
+        font-family: "Raleway", sans-serif;
+    }
+  
+    .medidor{
+        position: relative;
+        bottom: 4.50rem;
+        right: 0.20rem;
+        background-color: #0D132D;
+        border-radius: 0.50rem;
+        height: 1rem;
+        width: 18.50rem;
+    
+    }
+     .medidor-1{
+        background-color:red;
+        background: linear-gradient(90deg, #F89698, #F65A93);
+        width: 10rem;
+        height: 0.60rem;
+        position: relative;
+         bottom: 5.37rem;
+         border-radius: 0.50rem;
+         
+     }
+
+     .punto{
+        position: relative;
+        bottom: 6rem;
+        left: 9.50rem;
+        background-color: white;
+        width: 0.60rem;
+        height: 0.60rem;
+        border-radius: 100%;
+    }
+
+    .rectangulo{
+        background-color:#FFFFFF;
+        width: 10rem;
+        height: 3rem;
+        border-radius: 0.50rem 0.50rem 0rem;
+        position: relative;
+        bottom: 5rem;
+        left: 18rem;  
+    }
+    .rectangulo{
+        background-color:#FFFFFF;
+        width: 10rem;
+        height: 3rem;
+        border-radius: 0.50rem 0.50rem 0rem;
+        position: relative;
+        top: 4rem;
+        left: 3rem;
+        
+        
+        
+    }
+    .text{
+        font-size: 2rem;
+        font-family: "Raleway", sans-serif;
+        position: relative;
+       top: 1.50rem;
+        left: 3.80rem;
+        color:black;
+    }
+
+    .text-1{
+        font-size: 0.70rem;
+        color: gray;
+        position: relative;
+        top: 1rem;
+        left: 5rem;
+        font-family: "Raleway", sans-serif;
+        
+    }
+
+    .rectangulo-1{
+        width: 0;
+        height: 0;
+        background-color:#1E2D6A;
+        border-left: 0.18rem solid transparent;
+        border-right:0rem solid #0F1231;
+        border-bottom: 1.40rem solid #0F1231;
+        position: relative;
+        top: 3.0rem;
+        left: 8.33rem;
+        border-radius: 0.50rem;
+     }
+
+   
+}
